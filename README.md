@@ -6,24 +6,22 @@ A simple Python-based port scanner that checks common ports on a target IP addre
 
 ## 📌 Overview
 
-This project uses Python’s built-in `socket` library to attempt TCP connections to a set of well-known ports.  
-It helps you understand how basic network scanning works and builds a foundation for cybersecurity tasks like enumeration and reconnaissance.
+This project uses Python’s built-in `socket` library to attempt TCP connections to well-known ports.  
+You use this to learn how network scanning works and build real cybersecurity skills.
 
 ---
 
 ## ⚙️ Features
 
-- Scans multiple common ports
-- Identifies open and closed ports
-- Maps ports to known services
-- Uses timeout to speed up scanning
-- Simple and readable code
+- Scan common ports quickly
+- Detect open and closed ports
+- Map ports to known services
+- Use timeouts for faster results
+- Clean and readable code
 
 ---
 
 ## 🧠 Ports and Services
-
-The scanner checks the following ports:
 
 | Port | Service |
 |------|--------|
@@ -39,14 +37,13 @@ The scanner checks the following ports:
 
 ## 🛠️ How It Works
 
-- You enter a target IP address
-- The script loops through predefined ports
-- For each port:
-  - A socket is created
-  - A connection attempt is made using `connect_ex()`
-  - If the result is `0`, the port is open
-  - Otherwise, the port is closed
-- The result is printed with the service name
+- You enter a target IP
+- The script loops through each port
+- A TCP connection attempt is made using `connect_ex()`
+- Result:
+  - `0` → Port is open
+  - Other → Port is closed
+- Output shows port status and service name
 
 ---
 
@@ -54,5 +51,5 @@ The scanner checks the following ports:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/port-scanner.git
+git clone https://github.com/mrhackerbilly123/port-scanner.git
 cd port-scanner

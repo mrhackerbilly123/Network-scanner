@@ -1,17 +1,17 @@
-# 🔎 Python Port Scanner
+#  Python Port Scanner
 
 A simple Python-based port scanner that checks common ports on a target IP address and identifies whether they are open or closed.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project uses Python’s built-in `socket` library to attempt TCP connections to well-known ports.  
 You use this to learn how network scanning works and build real cybersecurity skills.
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - Scan common ports quickly
 - Detect open and closed ports
@@ -21,7 +21,7 @@ You use this to learn how network scanning works and build real cybersecurity sk
 
 ---
 
-## 🧠 Ports and Services
+##  Ports and Services
 
 | Port | Service |
 |------|--------|
@@ -35,7 +35,7 @@ You use this to learn how network scanning works and build real cybersecurity sk
 
 ---
 
-## 🛠️ How It Works
+##  How It Works
 
 - You enter a target IP
 - The script loops through each port
@@ -47,7 +47,7 @@ You use this to learn how network scanning works and build real cybersecurity sk
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### 1. Clone the repository
 ```bash
